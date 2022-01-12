@@ -7,28 +7,29 @@ nav{
     display: flex;
     background-image: linear-gradient(black,black);
     justify-content: space-between;
+    position: sticky;
+    top: 0;
 
 }
 nav h1 {
     padding-top: 10px;
     padding-left: 30px;
     font-size: 30px;
+    font-family:cursive ;
 }
 .nav {
     display: flex;
-    width: 400px;
-}
-.inside {
-    display: flex;
-    align-items: center;
-
+    width: 450px;
 }
 h3 {
     padding: 20px;
+    
+
 
 }
 h3:hover{
     background-image: linear-gradient(white,white);
+
 }
 
 a{
@@ -36,11 +37,14 @@ a{
 }
 .home {
     background-image: linear-gradient(yellow,white);
+    font-family: cursive;
+
 
 }
 .container {
     display: flex;
     height: 90vh;
+    font-family: cursive;
 
 }
 .card {
@@ -63,4 +67,34 @@ img{
 }
 .card h1{
     margin-bottom: 50px;
+}
+
+.banner{
+    display: flex;
+    height: 700px;
+    background-image: url(13.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.wc{
+    color: maroon;
+    padding: 50px;
+    margin: auto;
+    border: 4px solid;
+    border-radius: 30px;
+    background-color: transparent;
+    font-family: cursive;
+
+}
+/*about*/
+.about{
+    padding: 100px;
+    color: blue;
+    background-color: black;
+    font-family: cursive;
+
+}
+p{
+    margin-top: 0px;
 }
